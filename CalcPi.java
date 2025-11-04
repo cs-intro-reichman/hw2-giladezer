@@ -14,8 +14,9 @@ public class CalcPi {
 			}
 			devider += 2;
 		}
+		piApprox *= 4;
 
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated:	" + (piApprox * 4));
+		System.out.println("pi, approximated:     " + piApprox);
 	}
 }
