@@ -21,8 +21,8 @@ public  class  TestRandom {
 			}
 		}
 
-		long smaller = Math.min(greaterThanHalf, lessOrEqualToHalf);
-        long larger = Math.max(greaterThanHalf, lessOrEqualToHalf);
+		int smaller = Math.min(greaterThanHalf, lessOrEqualToHalf);
+        int larger = Math.max(greaterThanHalf, lessOrEqualToHalf);
 
         ratio = (double) smaller / larger;
 
