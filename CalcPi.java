@@ -5,6 +5,7 @@ public class CalcPi {
 	    double piApprox = 0.0;
 		int devider = 1;
 
+		
 		for (int k = 0; k < n; k++) {
 			if(k % 2 == 1) {
 				piApprox -= (1.0 / devider);
@@ -14,7 +15,7 @@ public class CalcPi {
 			devider += 2;
 		}
 
-		System.out.println("pi according to Java:" + Math.PI);
+		System.out.println("pi according to Java: " + Math.PI);
 		System.out.println("pi, approximated: " + (piApprox * 4));
 	}
 }

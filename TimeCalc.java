@@ -10,6 +10,6 @@ public class TimeCalc {
         hours += (minutes + minutesToAdd) / 60;
         hours = hours % 24;
         minutes = (minutes + minutesToAdd) % 60;
-        System.out.println(hours + ":" + minutes);
+        System.out.println((hours == 0? "0" : "" ) + hours + ":" + (minutes < 10? "0" : "" ) + minutes);
     }
 }
